@@ -17,7 +17,6 @@
     color: hsl(0, 100%, 70%);
 }
 .form__labelText {
-    display: inline-block;
     width: 150px;
     margin-right: 5px;
     text-align: right;
