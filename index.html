@@ -21,32 +21,34 @@
 </head>
 
 <body class="body">
-    <form class="form js-form">
-        <fieldset class="form__fieldset">
-            <legend class="form__legend">KALKULATOR WALUT</legend>
-            <p>
-                <label class="form__labelText">
-                    Podaj kwotę w PLN
-                    <input class="form__input js-sum" type="number" name="currency" step="any" min="0.01"
-                        placeholder="Kwota">
-                </label>
-            </p>
-            <p>
-                <label class="form__labelText">
-                    Wybierz walutę <select class="form__select js-currency" name="currency">
-                        <option>USD</option>
-                        <option>EUR</option>
-                        <option>GBP</option>
-                    </select></label>
-            </p>
-            <p>
-                <button class="form__submit"> PRZELICZ
-                </button>
-            </p>
-            <p><span class="form__result js-result">PLN = </span>
-            </p>
-        </fieldset>
-    </form>
+    <div class="element">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">KALKULATOR WALUT</legend>
+                <p>
+                    <label class="form__labelText">
+                        Podaj kwotę w PLN
+                        <input class="form__input js-sum" type="number" name="currency" step="any" min="0.01"
+                            placeholder="Kwota">
+                    </label>
+                </p>
+                <p>
+                    <label class="form__labelText">
+                        Wybierz walutę <select class="form__select js-currency" name="currency">
+                            <option>USD</option>
+                            <option>EUR</option>
+                            <option>GBP</option>
+                        </select></label>
+                </p>
+                <p>
+                    <button class="form__submit"> PRZELICZ
+                    </button>
+                </p>
+                <p><span class="form__result js-result">PLN = </span>
+                </p>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
